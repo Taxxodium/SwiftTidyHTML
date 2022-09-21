@@ -1,0 +1,6 @@
+module libtidyhtml5 [system] {
+    link "tidy"
+    umbrella header "../../Headers/tidy-html5.h"
+    export *
+    module * { export * }
+}
